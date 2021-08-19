@@ -1,0 +1,35 @@
+<CountUp
+            start={speed ? speed - 50 : 0}
+            end={speed ? speed : 0}
+            duration={5}
+            onEnd={() => console.log("end")}
+            onStart={() => console.log("start")}
+          >
+            {({ CountUpRef, start }) => {
+              startMethod=start;
+              return (
+                <>
+                  
+                </>
+              );
+            }}
+          </CountUp>
+
+
+
+          = async (req, res) => {
+    let speedtest = new FastSpeedtest({
+      token: "YXNkZmFzZGxmbnNkYWZoYXNkZmhrYWxm",
+      verbose: false, // default: false
+      timeout: 10000, // default: 5000
+      https: true, // default: true
+      urlCount: 5, // default: 5
+      bufferSize: 8, // default: 8
+      unit: FastSpeedtest.UNITS.Mbps, // default: Bps
+    });
+    speedtest.getSpeed().then(s => {
+      console.log(`Speed: ${s} Mbps`);
+  }).catch(e => {
+      console.error(e.message);
+  });
+});

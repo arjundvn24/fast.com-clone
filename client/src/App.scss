@@ -1,0 +1,128 @@
+@media (max-width: 768px) {
+  .speed-count{
+    font-size: 20vh;
+  }
+}.App{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  .logo{
+    height: 21vh;
+    img{
+    width: 20vh;
+    height: 20vh;
+    }
+  }
+  .body{
+	font-family: Helvetica,arial,sans-serif;
+    .heading{
+      margin: 0;
+      font-size: 4.5vh;
+      line-height: 6vh;
+      min-height: 6vh;
+    }
+    .top-section{
+      margin-top: 1vh;
+      display: flex;
+      align-items: center;
+      height: 30vh;
+      .left{
+        .speed-count{
+          font-size: 35vh;
+          line-height: 33vw;
+        }
+      }
+      .right{
+        height: 35vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .speed-measure{
+          font-size: 5vw;
+          font-weight: bolder;
+        }
+        .reload{
+          cursor: pointer;
+          margin-top: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 65px;
+          height: 65px;
+          border: 3px solid #2ab70a;
+          border-radius: 50%;
+          .icon-block{
+           font-size: 35px;
+          }
+        }
+      }
+    }
+  }
+  .footer{
+    width: 100%;
+    height: 100%;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    .showmore-btn{
+      background:none;
+      margin-bottom: 4vh;
+      margin-top: 4vh;
+      outline: none;
+      border: 1px solid #ccc;
+      color:#555;
+      font-size: 22px;
+      padding: 8px 20px;
+      border-radius: 10px;
+      &:hover{
+        cursor: pointer;
+        border-color: #0092e1;
+        color:#0092e1;
+      }
+    }
+    .social-icon{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .item-container{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background:#444;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        .icon-block{
+          font-size: 25px;
+          color: #fff;
+        }
+        &:hover{
+          cursor: pointer;
+          background: #0092e1;
+        }
+      }
+    }
+    .small-logo{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right: 20px;
+      box-sizing: border-box;
+      img{
+        width: 150px;
+      }
+    }
+    }
+  }
