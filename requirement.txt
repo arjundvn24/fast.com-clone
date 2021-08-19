@@ -9,4 +9,4 @@
 9) npm axios
 10) npm fast-speedtest-api
 11) Cors Extension- https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en
-*Dont forget to turn on by clicking on the https://github.com/arjundvn24/my-images/blob/main/Screenshot%202021-08-20%20003158.png*
+*Dont forget to turn on by clicking on the ![](https://github.com/arjundvn24/my-images/blob/main/Screenshot%202021-08-20%20003158.png)*
