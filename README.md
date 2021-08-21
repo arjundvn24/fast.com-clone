@@ -9,7 +9,7 @@ Developed with ReactJS, Node.js, fast-speedtest-api.
 Features
 Is 100% free and open-source
 No account needed
-Instant Network speed test \n
+Instant Network speed test
 <h1>Local Setup</h1>
 
 1) Install all the Recruitments.
