@@ -10,8 +10,8 @@ Features
 Is 100% free and open-source
 No account needed
 Instant Network speed test \n
-<h1>Local Setup</h1>
-\n
+<h1>Local Setup</h1> \n
+
 1) Install all the Recruitments.
 2) Run ```cd <your react app name>```
 3) ```npm start``` in terminal
