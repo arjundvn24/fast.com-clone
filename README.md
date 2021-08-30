@@ -1,5 +1,5 @@
 # Fast.com clone
-Fast.com clone in a few lines of code.
+Fast.com clone in a few lines of code. 
 
 The idea behind fast.com is to provide a quick and simple way for any internet user to test their current internet speed
 
