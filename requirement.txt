@@ -8,5 +8,7 @@
 8) npm @fortawesome/free-brands-svg-icons
 9) npm axios
 10) npm fast-speedtest-api
-11) Cors Extension- https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en
+11)npm i @fortawesome/fontawesome-svg-core
+12)npm i react-countup
+13) Cors Extension- https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en
 **Dont forget to turn on the extension.**
