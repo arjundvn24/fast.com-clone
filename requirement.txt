@@ -3,11 +3,11 @@
 3) dotenv
 4) express
 5) cors
-6) npm @fortawesome/react-fontawesome
-7) npm @fortawesome/free-solid-svg-icons
-8) npm @fortawesome/free-brands-svg-icons
-9) npm axios
-10) npm fast-speedtest-api
+6) npm i @fortawesome/react-fontawesome
+7) npm i @fortawesome/free-solid-svg-icons
+8) npm i @fortawesome/free-brands-svg-icons
+9) npm i axios
+10) npm i fast-speedtest-api
 11)npm i @fortawesome/fontawesome-svg-core
 12)npm i react-countup
 13)npm i node-sass@4.14.1
